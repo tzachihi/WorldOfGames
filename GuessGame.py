@@ -6,16 +6,21 @@ def generate_number(diff):
     return secret
 
 def get_guess_from_user(diff):
-    return 0
+    guess = int(input(f"What is your guess number from 1 to {diff}:"))
+    return guess
 
 
 def compare_results(guess,secret):
-     return 0
+    comp=(guess == secret)
+    print(comp)
 
 
 def play(diff):
     x = generate_number(diff)
     print(x)
+    y = get_guess_from_user(diff)
+    print(y)
+    compare_results(x, y)
 
 play(7)
 
