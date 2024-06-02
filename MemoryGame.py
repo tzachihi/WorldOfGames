@@ -2,9 +2,12 @@ import random
 
 
 def generate_sequence(diff):
-    seque = []
-    secret = random.randint(1, diff)
-    return secret
+    list_of_number = []
+    i = 0
+    while i < diff:
+        list_of_number.append(random.randint(1, 100))
+        i = i + 1
+    return list_of_number
 
 def get_guess_from_user(diff):
     guess = int(input(f"What is your guess number from 1 to {diff}:"))
@@ -23,4 +26,5 @@ def play(diff):
     print(y)
     compare_results(x, y)
 
-# play(7)
+
+print(generate_sequence(7))
