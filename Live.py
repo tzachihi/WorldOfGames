@@ -1,3 +1,5 @@
+import GuessGame
+
 def welcome(name):
     msg = f"""
          Hello {name} and welcome to the World of Games (WoG).
@@ -21,3 +23,11 @@ def load_game():
     diff = int(input("Please choose game difficulty from 1 to 5:"))
     if diff < 1 or diff > 5:
         exit(2)
+
+
+    if game == 2:
+        MemoryGame.play(diff)
+
+    elif game == 2:
+        GuessGame.play(diff)
+

@@ -1,7 +1,8 @@
 import random
 
 
-def generate_number(diff):
+def generate_sequence(diff):
+    seque = []
     secret = random.randint(1, diff)
     return secret
 
@@ -23,6 +24,3 @@ def play(diff):
     compare_results(x, y)
 
 # play(7)
-
-
-
