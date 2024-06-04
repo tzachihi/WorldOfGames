@@ -1,4 +1,5 @@
 import GuessGame
+import MemoryGame
 
 def welcome(name):
     msg = f"""
@@ -25,7 +26,7 @@ def load_game():
         exit(2)
 
 
-    if game == 2:
+    if game == 1:
         MemoryGame.play(diff)
 
     elif game == 2:

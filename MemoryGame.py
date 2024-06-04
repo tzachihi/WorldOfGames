@@ -1,5 +1,5 @@
 import random
-
+diff=5
 
 def generate_sequence(diff):
     list_of_number = []
@@ -10,12 +10,16 @@ def generate_sequence(diff):
     return list_of_number
 
 def get_guess_from_user(diff):
-    guess = int(input(f"What is your guess number from 1 to {diff}:"))
-    return guess
+    guess_number = []
+    i = 0
+    while i < diff:
+        guess_number.append(int(input(f"What is your guess number from 1 to {diff}:")))
+        i = i + 1
+    return guess_number
 
 
-def compare_results(guess,secret):
-    comp=(guess == secret)
+def compare_results(list_of_number, guess_number):
+    comp=(list_of_number == guess_number)
     print(comp)
 
 
@@ -27,4 +31,10 @@ def play(diff):
     compare_results(x, y)
 
 
-print(generate_sequence(7))
+x = (generate_sequence(diff))
+print(x)
+y = (get_guess_from_user(diff))
+print(x)
+print(y)
+
+compare_results(x, y)
