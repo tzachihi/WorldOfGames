@@ -1,4 +1,6 @@
 import random
+diff=5
+
 def generate_sequence(diff):
     list_of_number = []
     i = 0
