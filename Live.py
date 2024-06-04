@@ -1,5 +1,6 @@
 import GuessGame
 import MemoryGame
+import CurrencyRouletteGame
 
 def welcome(name):
     msg = f"""
@@ -31,4 +32,6 @@ def load_game():
 
     elif game == 2:
         GuessGame.play(diff)
+    elif game == 3:
+        CurrencyRouletteGame.play(diff)
 

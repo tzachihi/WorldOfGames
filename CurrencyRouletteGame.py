@@ -41,7 +41,7 @@ def play(diff):
 
 
 
-play(3)
+#play(3)
 
 #     x = generate_sequence(diff)
 #     print(x)
