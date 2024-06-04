@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Live.py" beforeDir="false" afterPath="$PROJECT_DIR$/Live.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame.py" afterDir="false" />
-    </list>
+    <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe2_guess" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717327295459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="exe2_guess">
+      <option name="closed" value="true" />
+      <created>1717487858771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717487858771</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +224,7 @@
     <MESSAGE value="commit #2" />
     <MESSAGE value="commit ex1" />
     <MESSAGE value="exe2" />
-    <option name="LAST_COMMIT_MESSAGE" value="exe2" />
+    <MESSAGE value="exe2_guess" />
+    <option name="LAST_COMMIT_MESSAGE" value="exe2_guess" />
   </component>
 </project>
