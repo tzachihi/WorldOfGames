@@ -1,4 +1,5 @@
 import random
+import time
 diff=5
 
 def generate_sequence(diff):
@@ -25,7 +26,11 @@ def compare_results(list_of_number, guess_number):
 
 def play(diff):
     x = generate_sequence(diff)
-    print(x)
+    # print the generated list for 0.7s and clear screen
+    print(x, end='', flush=True)
+    time.sleep(0.7)
+    print("\r", end='', flush=True)  # This clears the printed text after the duration
+
     y = get_guess_from_user(diff)
     print(y)
     compare_results(x, y)
