@@ -14,7 +14,7 @@ def get_guess_from_user(diff):
     guess_number = []
     i = 0
     while i < diff:
-        guess_number.append(int(input(f"What is your memorize number from 1 to 101:")))
+        guess_number.append(int(input(f"What is your memorize number from 1 to 100:")))
         i = i + 1
     return guess_number
 
