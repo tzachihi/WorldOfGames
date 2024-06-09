@@ -18,6 +18,7 @@ def load_game():
         2. Guess Game - guess a number and see if you chose like the computer
         3. Currency Roulette - try and guess the value of a random amount of USD in ILS
         """
+
     game = int(input(msg))
     if game < 1 or game > 3:
         exit(1)
@@ -29,9 +30,7 @@ def load_game():
 
     if game == 1:
         MemoryGame.play(diff)
-
     elif game == 2:
         GuessGame.play(diff)
     elif game == 3:
         CurrencyRouletteGame.play(diff)
-
