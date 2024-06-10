@@ -23,6 +23,7 @@ def get_guess_from_user(diff):
 def compare_results(list_of_number, guess_number):
     comp=(list_of_number == guess_number)
     print(comp)
+    return comp
 
 
 def play(diff):

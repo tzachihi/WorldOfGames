@@ -28,10 +28,12 @@ def get_guess_from_user(amount_in_usd):
 def compare_results(min_interval, gess, max_interval):
     comp = (min_interval <= gess <= max_interval)
     print(comp)
+
     if comp:
         print("You win the game")
     else:
         print("You lost the game")
+    return comp
 
 def play(diff):
     amount_in_usd = generate_number()
