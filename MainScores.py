@@ -19,7 +19,6 @@ app = Flask(__name__)
 @app.route('/')
 # ‘/’ URL is bound with hello_world() function.
 def score_server():
-
     score = read_score()
     print(score)
     if score:
