@@ -18,7 +18,7 @@ app = Flask(__name__)
 # the associated function.
 @app.route('/')
 # ‘/’ URL is bound with hello_world() function.
-def worldOfGame():
+def score_server():
 
     score = read_score()
     print(score)
@@ -35,4 +35,4 @@ if __name__ == '__main__':
     # on the local development server.
     app.run(host='0.0.0.0')
 
-worldOfGame()
+score_server()
