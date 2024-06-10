@@ -1,6 +1,4 @@
 import random
-import Score
-
 
 def generate_number(diff):
     secret = random.randint(1, diff)
