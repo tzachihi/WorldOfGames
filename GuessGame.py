@@ -22,10 +22,12 @@ def play(diff):
     print(x)
     y = get_guess_from_user(diff)
     print(y)
-    if (compare_results(x, y)) == True:
-        Score.add_score(diff)
+    if (compare_results(x, y)):
+        return True
 
-# play(5)
+
+
+#play(5)
 
 
 

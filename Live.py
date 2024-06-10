@@ -1,6 +1,7 @@
 import GuessGame
 import MemoryGame
 import CurrencyRouletteGame
+import Score
 
 def welcome(name):
     msg = f"""
@@ -29,8 +30,20 @@ def load_game():
 
 
     if game == 1:
-        MemoryGame.play(diff)
+
+        if MemoryGame.play(diff):
+            Score.add_score(diff)
+            print("You win the Game")
+        else:
+            print("You lose the Game")
+
     elif game == 2:
-        GuessGame.play(diff)
+        if GuessGame.play(diff):
+            Score.add_score(diff)
+            print("You win the Game")
+        else:
+            print("You lose the Game")
+
+
     elif game == 3:
         CurrencyRouletteGame.play(diff)

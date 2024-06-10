@@ -42,7 +42,6 @@ def play(diff):
     gess = get_guess_from_user(amount_in_usd)
     print(gess)
     compare_results(min_interval, gess, max_interval)
-    if (compare_results(min_interval, gess, max_interval)) == True:
-        Score.add_score(diff)
+
 
 #play(5)

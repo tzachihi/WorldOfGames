@@ -35,16 +35,10 @@ def play(diff):
 
     y = get_guess_from_user(diff)
     print(y)
-    compare_results(x, y)
-    if (compare_results(x, y)) == True:
-        Score.add_score(diff)
+    if compare_results(x, y):
+        return True
 
 
-# x = generate_sequence(diff)
-# print(x)
-# y = get_guess_from_user(diff)
-# print(x)
-# print(y)
-#
+
 # compare_results(x, y)
 # play(5)
