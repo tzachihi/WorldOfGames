@@ -1,5 +1,6 @@
 import random
 import time
+import Score
 diff=5
 
 def generate_sequence(diff):
@@ -34,6 +35,8 @@ def play(diff):
     y = get_guess_from_user(diff)
     print(y)
     compare_results(x, y)
+    if (compare_results(x, y)) == True:
+        Score.add_score(diff)
 
 
 # x = generate_sequence(diff)

@@ -1,5 +1,6 @@
 import random
 import requests
+import Score
 # self.api_url = "https://api.exchangerate-api.com/v4/latest/USD"  # Example API endpoint
 
 def generate_number():
@@ -39,5 +40,7 @@ def play(diff):
     gess = get_guess_from_user(amount_in_usd)
     print(gess)
     compare_results(min_interval, gess, max_interval)
+    if (compare_results(min_interval, gess, max_interval)) == True:
+        Score.add_score(diff)
 
 #play(5)

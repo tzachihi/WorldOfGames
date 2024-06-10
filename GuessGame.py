@@ -1,4 +1,5 @@
 import random
+import Score
 
 
 def generate_number(diff):
@@ -13,6 +14,7 @@ def get_guess_from_user(diff):
 def compare_results(guess,secret):
     comp=(guess == secret)
     print(comp)
+    return comp
 
 
 def play(diff):
@@ -20,9 +22,11 @@ def play(diff):
     print(x)
     y = get_guess_from_user(diff)
     print(y)
-    compare_results(x, y)
+    if (compare_results(x, y)) == True:
+        Score.add_score(diff)
 
-# play(7)
+# play(5)
+
 
 
 
