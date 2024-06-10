@@ -7,4 +7,3 @@ import MainScores
 print(welcome("Guy"))
 load_game()
 print(Score.read_score())
-MainScores.worldOfGame()

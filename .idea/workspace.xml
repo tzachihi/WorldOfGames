@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe3_add_score2">
+    <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe3_add_score3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scores.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718011322702</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="exe3_add_score3">
+      <option name="closed" value="true" />
+      <created>1718017369689</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718017369690</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +357,8 @@
     <MESSAGE value="exe2_memory_comp" />
     <MESSAGE value="exe3_add_score" />
     <MESSAGE value="exe3_add_score2" />
-    <option name="LAST_COMMIT_MESSAGE" value="exe3_add_score2" />
+    <MESSAGE value="exe3_add_score3" />
+    <option name="LAST_COMMIT_MESSAGE" value="exe3_add_score3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
