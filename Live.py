@@ -46,4 +46,8 @@ def load_game():
 
 
     elif game == 3:
-        CurrencyRouletteGame.play(diff)
+        if CurrencyRouletteGame.play(diff):
+            Score.add_score(diff)
+            print("You win the Game")
+        else:
+            print("You lose the Game")

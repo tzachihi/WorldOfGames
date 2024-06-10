@@ -17,7 +17,7 @@ def get_money_interval(diff, amount_in_usd):
     print(f'random number is {amount_in_usd}')
     rate = get_currency_rate()
     print(f'rate is {rate}')
-    ils = rate * amount_in_usd
+    ils = int(rate * amount_in_usd)
     offset = 5 -diff
     return ils - offset, ils + offset
 
@@ -27,12 +27,6 @@ def get_guess_from_user(amount_in_usd):
 
 def compare_results(min_interval, gess, max_interval):
     comp = (min_interval <= gess <= max_interval)
-    print(comp)
-
-    if comp:
-        print("You win the game")
-    else:
-        print("You lost the game")
     return comp
 
 def play(diff):
@@ -42,6 +36,8 @@ def play(diff):
     gess = get_guess_from_user(amount_in_usd)
     print(gess)
     compare_results(min_interval, gess, max_interval)
+    if compare_results(min_interval, gess, max_interval):
+        return True
 
 
 #play(5)
