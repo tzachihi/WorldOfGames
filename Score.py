@@ -26,8 +26,8 @@ def add_score(difficulty):
     fw = open(SCORES_FILE_NAME, 'w')
     fw.write(new_score_w)
     fw.close()
-    print(f"read {file_score}")
-    print(new_score_w)
+    # print(f"read {file_score}")
+    # print(new_score_w)
 
 
 def read_score():
