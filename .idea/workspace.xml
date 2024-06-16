@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe3_add_score3">
+    <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe4_Docker_files">
+      <change afterPath="$PROJECT_DIR$/Docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scores.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718024244835</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="exe4_Docker_files">
+      <option name="closed" value="true" />
+      <created>1718517661656</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718517661656</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +391,8 @@
     <MESSAGE value="exe3_add_score" />
     <MESSAGE value="exe3_add_score2" />
     <MESSAGE value="exe3_add_score3" />
-    <option name="LAST_COMMIT_MESSAGE" value="exe3_add_score3" />
+    <MESSAGE value="exe4_Docker_files" />
+    <option name="LAST_COMMIT_MESSAGE" value="exe4_Docker_files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
