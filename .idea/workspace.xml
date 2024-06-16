@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587c528a-e151-4419-8047-e8b8a976ab92" name="Changes" comment="exe4_Docker_files">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyRouletteGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyRouletteGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuessGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuessGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scores.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.MainScores">
+  <component name="RunManager" selected="Python.MainGame">
     <configuration name="HTTP_TEST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WorldOfGame" />
       <option name="ENV_FILES" value="" />
@@ -269,8 +271,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainScores" />
         <item itemvalue="Python.MainGame" />
+        <item itemvalue="Python.MainScores" />
         <item itemvalue="Python.e2e" />
         <item itemvalue="Python.HTTP_TEST" />
         <item itemvalue="Python.WebPage" />
@@ -493,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718521110673</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="exe4_Docker_files">
+      <option name="closed" value="true" />
+      <created>1718523162140</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1718523162141</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

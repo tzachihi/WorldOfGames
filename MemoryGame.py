@@ -22,7 +22,7 @@ def get_guess_from_user(diff):
 
 def compare_results(list_of_number, guess_number):
     comp=(list_of_number == guess_number)
-    print(comp)
+    # print(comp)
     return comp
 
 
@@ -34,7 +34,7 @@ def play(diff):
     print("\r", end='', flush=True)  # This clears the printed text after the duration
 
     y = get_guess_from_user(diff)
-    print(y)
+    # print(y)
     if compare_results(x, y):
         return True
 

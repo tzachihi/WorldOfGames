@@ -11,7 +11,7 @@ def get_guess_from_user(diff):
 
 def compare_results(guess,secret):
     comp=(guess == secret)
-    print(comp)
+    # print(comp)
     return comp
 
 
@@ -19,7 +19,7 @@ def play(diff):
     x = generate_number(diff)
     print(x)
     y = get_guess_from_user(diff)
-    print(y)
+    # print(y)
     if (compare_results(x, y)):
         return True
 

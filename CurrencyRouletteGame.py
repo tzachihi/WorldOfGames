@@ -34,7 +34,7 @@ def play(diff):
     min_interval, max_interval = get_money_interval(diff, amount_in_usd)
     print(f' min interval is {min_interval}, max interval is {max_interval}')
     gess = get_guess_from_user(amount_in_usd)
-    print(gess)
+    # print(gess)
     compare_results(min_interval, gess, max_interval)
     if compare_results(min_interval, gess, max_interval):
         return True
