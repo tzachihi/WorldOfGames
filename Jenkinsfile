@@ -1,13 +1,11 @@
 pipeline {
     agent any
-
     stages {
         stage('Git Checkout') {
             steps {
                 git 'https://github.com/tzachihi/WorldOfGames.git'
             }
         }
-
         stage('Build image') {
              /* This builds the actual image; synonymous to
               * docker build on the command line */
